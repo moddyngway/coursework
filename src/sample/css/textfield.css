@@ -1,0 +1,9 @@
+.login_field{
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-display: flex;
+    -fx-flex-direction: column;
+    -fx-justify-content: center;
+    -fx-align-items: center;
+    -fx-min-height: 100vh;
+    -fx-font-size: 1.5rem;
+}

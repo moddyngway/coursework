@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="544.0" prefWidth="1096.0" style="-fx-background-color: #3D4956;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.registor">
+    <children>
+        <AnchorPane layoutX="-1.0" prefHeight="544.0" prefWidth="1097.0" style="-fx-background-color: #FAFAFA;">
+            <children>
+
+                <Label fx:id="title" alignment="CENTER" contentDisplay="CENTER" layoutX="269.0" layoutY="15.0" prefHeight="42.0" prefWidth="775.0" text="Register" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="25.0" />
+                    </font>
+                </Label>
+
+            <TextField fx:id="username_field" layoutX="556.0" layoutY="73.0" prefHeight="42.0" prefWidth="198.0" promptText="Login" />
+            <TextField fx:id="firstname_field" layoutX="556.0" layoutY="126.0" prefHeight="42.0" prefWidth="198.0" promptText="Name" />
+            <TextField fx:id="lastname_field" layoutX="557.0" layoutY="177.0" prefHeight="42.0" prefWidth="198.0" promptText="Last name" />
+            <TextField fx:id="usertype_field" layoutX="557.0" layoutY="233.0" prefHeight="42.0" prefWidth="198.0" promptText="Account type" />
+                <PasswordField fx:id="password_field" layoutX="557.0" layoutY="291.0" prefHeight="42.0" prefWidth="198.0" promptText="Password" />
+            <PasswordField fx:id="passagain_field" layoutX="558.0" layoutY="346.0" prefHeight="42.0" prefWidth="198.0" promptText="Repeat password" />
+            <Button fx:id="registrationButton" layoutX="558.0" layoutY="402.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="198.0" styleClass="button1" stylesheets="@../css/button.css" text="Register " />
+            <AnchorPane prefHeight="544.0" prefWidth="262.0" style="-fx-background-color: #6495ED;">
+               <children>
+                  <ImageView fitHeight="49.0" fitWidth="57.0" layoutX="11.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/Info.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="InfoButton" alignment="CENTER" layoutX="83.0" layoutY="24.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="157.0" style="-fx-background-color: #154db6;" text="Information" textFill="WHITE" textOverrun="CLIP">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Pane layoutX="-7.0" layoutY="107.0" prefHeight="61.0" prefWidth="269.0" style="-fx-background-color: #154db6; -fx-background-radius: 5;">
+                     <children>
+                        <Label layoutX="25.0" layoutY="17.0" text="Register" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <ImageView fitHeight="81.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="226.0" fitWidth="275.0" layoutX="18.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/login.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

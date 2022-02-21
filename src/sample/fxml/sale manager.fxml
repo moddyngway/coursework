@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="649.0" prefWidth="1301.0" style="-fx-background-color: #2F2B43;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.accounts.sale_manager">
+   <children>
+      <AnchorPane prefHeight="649.0" prefWidth="415.0" style="-fx-background-color: #6495ED;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane layoutY="45.0" prefHeight="61.0" prefWidth="429.0" style="-fx-background-color: #154db6; -fx-background-radius: 5;">
+               <children>
+                  <Label alignment="TOP_CENTER" layoutX="-2.0" layoutY="14.0" prefHeight="34.0" prefWidth="429.0" text="Sale manager account" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="23.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="29.0" layoutY="121.0" prefHeight="82.0" prefWidth="237.0">
+               <children>
+                  <Label alignment="TOP_CENTER" ellipsisString="" layoutY="14.0" prefHeight="75.0" prefWidth="227.0" text="The most  expensive apartment" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="55.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../assets/apartment(1).png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Button fx:id="expensiveApartament" layoutY="11.0" mnemonicParsing="false" opacity="0.0" prefHeight="75.0" prefWidth="237.0" text="Button" />
+               </children>
+            </Pane>
+            <Pane layoutX="29.0" layoutY="211.0" prefHeight="91.0" prefWidth="209.0">
+               <children>
+                  <Label alignment="CENTER" layoutY="12.0" prefHeight="82.0" prefWidth="209.0" text="The cheapest apartment" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../assets/appartment.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Button fx:id="cheapestApartament" layoutX="-6.0" layoutY="22.0" mnemonicParsing="false" opacity="0.0" prefHeight="75.0" prefWidth="185.0" text="Button">
+                     <font>
+                        <Font size="21.0" />
+                     </font></Button>
+               </children>
+            </Pane>
+            <Pane layoutX="36.0" layoutY="314.0" prefHeight="75.0" prefWidth="174.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="-6.0" layoutY="-8.0" prefHeight="91.0" prefWidth="185.0" text="Free apartments for shopping" textFill="WHITE" textOverrun="CLIP" wrapText="true">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="55.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../assets/sold%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Button fx:id="freeApartaments" layoutX="4.0" layoutY="-2.0" mnemonicParsing="false" opacity="0.0" prefHeight="84.0" prefWidth="174.0" text="Button" />
+               </children>
+            </Pane>
+            <Pane layoutX="11.0" layoutY="390.0" prefHeight="82.0" prefWidth="215.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="3.0" layoutY="8.0" prefHeight="75.0" prefWidth="215.0" text="Apartments sold" textAlignment="JUSTIFY" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="49.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../assets/sold.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Button fx:id="soldApartaments" layoutX="6.0" layoutY="12.0" mnemonicParsing="false" opacity="0.0" prefHeight="61.0" prefWidth="194.0" text="Button" />
+               </children>
+            </Pane>
+            <Pane fx:id="Exit" layoutX="-9.0" layoutY="478.0" prefHeight="97.0" prefWidth="194.0">
+               <children>
+                  <Label alignment="CENTER" layoutY="18.0" prefHeight="48.0" prefWidth="194.0" text="Exit" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../assets/exit.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Label>
+                  <Button fx:id="ExitButton" layoutX="34.0" layoutY="12.0" mnemonicParsing="false" opacity="0.0" prefHeight="67.0" prefWidth="117.0" styleClass="button2" />
+               </children>
+            </Pane>
+            <ImageView fitHeight="48.0" fitWidth="84.0" layoutX="21.0" layoutY="581.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/manager/pngwing.com%20(12).png" />
+               </image>
+            </ImageView>
+            <Button fx:id="BackMenu" layoutX="21.0" layoutY="581.0" mnemonicParsing="false" opacity="0.0" prefHeight="48.0" prefWidth="48.0" text="Button" />
+         </children>
+      </AnchorPane>
+      <Pane layoutX="450.0" prefHeight="649.0" prefWidth="912.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="450.0" AnchorPane.rightAnchor="-61.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="659.0" fitWidth="878.0" layoutX="-25.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/sale/sale.jpg" />
+               </image>
+            </ImageView>
+            <TableView fx:id="tableview" layoutX="206.0" layoutY="136.0" prefHeight="366.0" prefWidth="500.0" stylesheets="@../css/table.css" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

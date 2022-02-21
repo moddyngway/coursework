@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="302.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.map">
+   <children>
+      <ImageView accessibleRole="BUTTON" fitHeight="373.0" fitWidth="601.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/kyrg/all_map.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ChuyMap" accessibleRole="PARENT" fitHeight="89.0" fitWidth="217.0" layoutX="210.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/kyrg/chuy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="BatkenMap" accessibleRole="BUTTON" fitHeight="65.0" fitWidth="170.0" layoutX="14.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/kyrg/batken.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="IssykKulMap" accessibleRole="BUTTON" fitHeight="120.0" fitWidth="240.0" layoutX="344.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/kyrg/issyk-kul.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="JalalAbaMap" accessibleRole="BUTTON" fitHeight="95.0" fitWidth="239.0" layoutX="59.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/kyrg/jalal_abad.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="NarynMap" accessibleRole="BUTTON" fitHeight="146.0" fitWidth="234.0" layoutX="245.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/kyrg/naryn.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="TalasMap" accessibleRole="BUTTON" fitHeight="53.0" fitWidth="145.0" layoutX="97.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/kyrg/Talas.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="OshMap" accessibleRole="BUTTON" fitHeight="131.0" fitWidth="177.0" layoutX="128.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/kyrg/osh.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Bishkek" layoutX="260.0" layoutY="34.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="24.0" styleClass="button3" stylesheets="@../css/mapbutton.css" />
+      <Label fx:id="text" layoutX="278.0" layoutY="237.0" prefHeight="39.0" prefWidth="295.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="Talas" layoutX="151.0" layoutY="87.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" styleClass="button3" stylesheets="@../css/mapbutton.css" />
+      <Button fx:id="Batken" layoutX="71.0" layoutY="232.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" styleClass="button3" stylesheets="@../css/mapbutton.css" />
+      <Button fx:id="Osh" layoutX="234.0" layoutY="201.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" styleClass="button3" stylesheets="@../css/mapbutton.css" />
+      <Button fx:id="Naryn" layoutX="351.0" layoutY="121.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" styleClass="button3" stylesheets="@../css/mapbutton.css" />
+      <Button fx:id="JalalAbad" layoutX="208.0" layoutY="139.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" styleClass="button3" stylesheets="@../css/mapbutton.css" />
+      <Button fx:id="IssykKul" layoutX="454.0" layoutY="75.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" styleClass="button3" stylesheets="@../css/mapbutton.css" />
+      <Text fill="#cd5656" layoutX="285.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bishkek" wrappingWidth="82.0">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#cd5656" layoutX="382.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Naryn" wrappingWidth="57.0">
+         <font>
+            <Font name="Impact" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="#cd5656" layoutX="488.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Issyk-Kul" wrappingWidth="82.0">
+         <font>
+            <Font name="Impact" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#cd5656" layoutX="257.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Osh" wrappingWidth="57.0">
+         <font>
+            <Font name="Impact" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#cd5656" layoutX="100.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Batken" wrappingWidth="57.0">
+         <font>
+            <Font name="Impact" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="#cd5656" layoutX="237.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jalal-abad" wrappingWidth="82.0">
+         <font>
+            <Font name="Impact" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#cd5656" layoutX="179.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Talas" wrappingWidth="49.0">
+         <font>
+            <Font name="Impact" size="17.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

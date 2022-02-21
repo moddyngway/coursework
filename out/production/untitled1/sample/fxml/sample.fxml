@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="main" prefHeight="649.0" prefWidth="1094.0" style="-fx-background-color: #3D4956;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Controller">
+   <children>
+      <AnchorPane layoutY="88.0" prefHeight="704.0" prefWidth="1119.0" style="-fx-background-color: #FAFAFA;">
+         <children>
+            <AnchorPane prefHeight="681.0" prefWidth="1098.0">
+               <children>
+                  <ImageView fitHeight="760.0" fitWidth="1351.0" layoutX="-202.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/Main%20them/123.jpg" />
+                     </image>
+                  </ImageView>
+                  <Pane layoutX="400.0" layoutY="159.0" prefHeight="423.0" prefWidth="315.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="81.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../assets/free-icon-role-model-4185461.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="registrationButton" layoutX="30.0" layoutY="357.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="256.0" styleClass="button1" stylesheets="@../css/button.css" text="Sign up " />
+                        <Button fx:id="authSignupButton" layoutX="30.0" layoutY="299.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="256.0" styleClass="button1" stylesheets="@../css/button.css" text="Log in" />
+                        <TextField fx:id="login_field" layoutX="31.0" layoutY="178.0" prefHeight="44.0" prefWidth="256.0" promptText="Login" />
+                        <PasswordField fx:id="password_field" layoutX="31.0" layoutY="241.0" prefHeight="44.0" prefWidth="256.0" promptText="Password" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+            <Label fx:id="title" alignment="TOP_CENTER" contentDisplay="CENTER" layoutY="26.0" prefHeight="72.0" prefWidth="1097.0" text="Welcome to your account! Please log in to your account!" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="90.0" layoutY="-10.0" prefHeight="104.0" prefWidth="572.0" text="ADAMANTIUM ">
+         <font>
+            <Font size="54.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.38095238095238093" endY="0.8619047619047618" startX="0.3809523809523809" startY="0.1952380952380952">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23759999871253967" green="0.282260000705719" blue="0.33000001311302185" opacity="0.41304346919059753" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007662835249042145">
+                     <color>
+                        <Color red="0.21631334722042084" green="0.5378583669662476" blue="0.8815789222717285" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fx:id="logoBnk" fitHeight="114.0" fitWidth="170.0" layoutX="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/png.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="InfoButton" alignment="CENTER" layoutX="942.0" layoutY="20.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="163.0" style="-fx-background-color: #2574a9;" text="Information" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="886.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/Info.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
